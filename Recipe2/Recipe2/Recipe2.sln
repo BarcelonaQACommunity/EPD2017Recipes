@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe2", "Recipe1\Recipe2.csproj", "{9E45C257-9AA8-4EB8-8083-F90ECF00582E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Features", "Features", "{E025ECF0-DB05-49F4-BD6A-95B7FBD23F93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PageObject", "PageObject", "{CE88C00D-061E-452E-9FC1-AAD953A786AE}"
+	ProjectSection(SolutionItems) = preProject
+		Recipe1\chromedriver.exe = Recipe1\chromedriver.exe
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Injection", "Injection", "{56877184-1325-475F-9B3E-384174E9CF9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PageObject.Interfaces", "ClassLibrary1\PageObject.Interfaces.csproj", "{1C87A640-5797-429A-8A7C-C7988A9042A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PageObject.Web", "PageObject.Web\PageObject.Web.csproj", "{DFE0ACFE-FC38-4942-A301-A25D41D53661}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Container", "Container\Container.csproj", "{991410BD-6D21-42A9-965E-E02768DB42BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E45C257-9AA8-4EB8-8083-F90ECF00582E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E45C257-9AA8-4EB8-8083-F90ECF00582E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E45C257-9AA8-4EB8-8083-F90ECF00582E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E45C257-9AA8-4EB8-8083-F90ECF00582E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C87A640-5797-429A-8A7C-C7988A9042A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C87A640-5797-429A-8A7C-C7988A9042A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C87A640-5797-429A-8A7C-C7988A9042A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C87A640-5797-429A-8A7C-C7988A9042A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFE0ACFE-FC38-4942-A301-A25D41D53661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFE0ACFE-FC38-4942-A301-A25D41D53661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFE0ACFE-FC38-4942-A301-A25D41D53661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE0ACFE-FC38-4942-A301-A25D41D53661}.Release|Any CPU.Build.0 = Release|Any CPU
+		{991410BD-6D21-42A9-965E-E02768DB42BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{991410BD-6D21-42A9-965E-E02768DB42BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{991410BD-6D21-42A9-965E-E02768DB42BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{991410BD-6D21-42A9-965E-E02768DB42BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9E45C257-9AA8-4EB8-8083-F90ECF00582E} = {E025ECF0-DB05-49F4-BD6A-95B7FBD23F93}
+		{1C87A640-5797-429A-8A7C-C7988A9042A9} = {CE88C00D-061E-452E-9FC1-AAD953A786AE}
+		{DFE0ACFE-FC38-4942-A301-A25D41D53661} = {CE88C00D-061E-452E-9FC1-AAD953A786AE}
+		{991410BD-6D21-42A9-965E-E02768DB42BD} = {56877184-1325-475F-9B3E-384174E9CF9E}
+	EndGlobalSection
+EndGlobal

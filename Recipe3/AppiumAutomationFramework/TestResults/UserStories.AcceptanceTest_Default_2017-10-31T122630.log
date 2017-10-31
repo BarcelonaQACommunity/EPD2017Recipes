@@ -1,0 +1,199 @@
+﻿Discovering target: Default
+Discovering tests from assembly: C:\QACommunity\EPD2017\Recipe3\AppiumAutomationFramework\UserStories.AcceptanceTest\bin\Debug\UserStories.AcceptanceTest.dll
+Appdomain Disposed
+Test Suite Dump
+#0: UserStories.AcceptanceTest/Default - 
+#1: Default - 
+#2: UserStories.AcceptanceTest - 
+#3: Add Task view - How to create different tasks - 
+#7: Edit Task view - How to edit different tasks - 
+#9: Main view - How to manage the different lists - 
+#4: Add Task View - Check the values from the task, Title 1 - TestAssembly:UserStories.AcceptanceTest/Feature:Add+Task+view+-+How+to+create+different+tasks/Scenario:Add+Task+View+-+Check+the+values+from+the+task%2c+Title+1
+#5: Add Task View - Check the values from the task, Title 2 - TestAssembly:UserStories.AcceptanceTest/Feature:Add+Task+view+-+How+to+create+different+tasks/Scenario:Add+Task+View+-+Check+the+values+from+the+task%2c+Title+2
+#6: Add Task View - Check the values from the task, Title 3 - TestAssembly:UserStories.AcceptanceTest/Feature:Add+Task+view+-+How+to+create+different+tasks/Scenario:Add+Task+View+-+Check+the+values+from+the+task%2c+Title+3
+#8: Edit Task View - Check that the created task has the correct values in the edit view - TestAssembly:UserStories.AcceptanceTest/Feature:Edit+Task+view+-+How+to+edit+different+tasks/Scenario:Edit+Task+View+-+Check+that+the+created+task+has+the+correct+values+in+the+edit+view
+#10: Main View - With an empty view the user can see a phrase - TestAssembly:UserStories.AcceptanceTest/Feature:Main+view+-+How+to+manage+the+different+lists/Scenario:Main+View+-+With+an+empty+view+the+user+can+see+a+phrase
+#11: Main View - When the user creates a task the main view have one task - TestAssembly:UserStories.AcceptanceTest/Feature:Main+view+-+How+to+manage+the+different+lists/Scenario:Main+View+-+When+the+user+creates+a+task+the+main+view+have+one+task
+#12: Main View - When the user creates three tasks and the main view have three tasks - TestAssembly:UserStories.AcceptanceTest/Feature:Main+view+-+How+to+manage+the+different+lists/Scenario:Main+View+-+When+the+user+creates+three+tasks+and+the+main+view+have+three+tasks
+#13: Main View - The user removes a task and check that the task has been removed - TestAssembly:UserStories.AcceptanceTest/Feature:Main+view+-+How+to+manage+the+different+lists/Scenario:Main+View+-+The+user+removes+a+task+and+check+that+the+task+has+been+removed
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread
+Thread#0:Scheduler: using testitem #4 for thread
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for UserStories.AcceptanceTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\lodi\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.5.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:B:Given The user goes to the add task view
+Thread#0:T:done: MainViewSteps.TheUserGoesToTheAddTaskView() (18,2s)
+Thread#0:B:When The user sets the task with the title 'Title 1', the content 'This is a content 1', and the color 'Red'
+Thread#0:T:done: AddTaskViewSteps.TheUserSetsTheTaskWithTheTitleTheContentAndTheColor("Title 1", "This is a content 1", "Red") (12,7s)
+Thread#0:B:Then The user check that the title 'Title 1' and the content 'This is a content 1' from the task are the correct values
+Thread#0:T:done: AddTaskViewSteps.TheUserCheckThatTheTitleAndTheContentFromTheTaskAreTheCorrectValues("Title 1", "This is a content 1") (0,9s)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread
+Thread#0:Scheduler: using testitem #5 for thread
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 35,0507096 seconds
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:B:Given The user goes to the add task view
+Thread#0:T:done: MainViewSteps.TheUserGoesToTheAddTaskView() (11,4s)
+Thread#0:B:When The user sets the task with the title 'Title 2', the content 'This is a content 2', and the color 'White'
+Thread#0:T:done: AddTaskViewSteps.TheUserSetsTheTaskWithTheTitleTheContentAndTheColor("Title 2", "This is a content 2", "White") (13,1s)
+Thread#0:B:Then The user check that the title 'Title 2' and the content 'This is a content 2' from the task are the correct values
+Thread#0:T:done: AddTaskViewSteps.TheUserCheckThatTheTitleAndTheContentFromTheTaskAreTheCorrectValues("Title 2", "This is a content 2") (0,9s)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #6 from normal test queue 
+Thread#0:Scheduler: considering testitem #6 for thread
+Thread#0:Scheduler: using testitem #6 for thread
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 28,1093137 seconds
+Thread#0: Test #6/0 is started on thread #0
+Thread#0:B:Given The user goes to the add task view
+Thread#0:T:done: MainViewSteps.TheUserGoesToTheAddTaskView() (12,4s)
+Thread#0:B:When The user sets the task with the title 'Title 3', the content 'This is a content 3', and the color 'Yellow'
+Thread#0:T:done: AddTaskViewSteps.TheUserSetsTheTaskWithTheTitleTheContentAndTheColor("Title 3", "This is a content 3", "Yellow") (12,9s)
+Thread#0:B:Then The user check that the title 'Title 3' and the content 'This is a content 3' from the task are the correct values
+Thread#0:T:done: AddTaskViewSteps.TheUserCheckThatTheTitleAndTheContentFromTheTaskAreTheCorrectValues("Title 3", "This is a content 3") (0,8s)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #8 from normal test queue 
+Thread#0:Scheduler: considering testitem #8 for thread
+Thread#0:Scheduler: using testitem #8 for thread
+Thread#0:Scheduler: Test #8 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #6/0 is finished on thread #0 as Succeeded within 28,8220841 seconds
+Thread#0: Test #8/0 is started on thread #0
+Thread#0:B:Given The user creates a task with the title 'Prepare meetup', the content 'Check all the content', and the color 'Red'
+Thread#0:B:When The user goes to the add task view
+Thread#0:T:done: MainViewSteps.TheUserGoesToTheAddTaskView() (0.4s)
+Thread#0:B:When The user sets the task with the title 'Prepare meetup', the content 'Check all the content', and the color 'Red'
+Thread#0:T:done: AddTaskViewSteps.TheUserSetsTheTaskWithTheTitleTheContentAndTheColor("Prepare meetup", "Check all the con...", "Red") (13.4s)
+Thread#0:B:When The user creates the task
+Thread#0:T:done: AddTaskViewSteps.TheUserCreatesTheTask() (1.3s)
+Thread#0:T:done: AddTaskViewSteps.TheUserCreatesATaskWithTheTitleTheContentAndTheColor("Prepare meetup", "Check all the con...", "Red") (26,6s)
+Thread#0:B:When The user goes to the task '1' edit view
+Thread#0:T:done: MainViewSteps.TheUserGoesToTheTaskEditView(1) (1,4s)
+Thread#0:B:Then The task has the title 'Prepare meetup' and the content 'Check all the content'
+Thread#0:T:done: EditTaskViewSteps.TheTaskHasTheTitleAndTheContent("Prepare meetup", "Check all the con...") (0,6s)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #10 from normal test queue 
+Thread#0:Scheduler: considering testitem #10 for thread
+Thread#0:Scheduler: using testitem #10 for thread
+Thread#0:Scheduler: Test #10 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #8/0 is finished on thread #0 as Succeeded within 31,4004019 seconds
+Thread#0: Test #10/0 is started on thread #0
+Thread#0:B:Given The application does not have any tasks
+Thread#0:T:done: MainViewSteps.TheApplicationDoesNotHaveAnyTasks() (11,1s)
+Thread#0:B:Then The user sees a proverb
+Thread#0:T:done: MainViewSteps.TheUserSeesAProverb() (0,0s)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #11 from normal test queue 
+Thread#0:Scheduler: considering testitem #11 for thread
+Thread#0:Scheduler: using testitem #11 for thread
+Thread#0:Scheduler: Test #11 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #10/0 is finished on thread #0 as Succeeded within 13,5077413 seconds
+Thread#0: Test #11/0 is started on thread #0
+Thread#0:B:Given The application does not have any tasks
+Thread#0:T:done: MainViewSteps.TheApplicationDoesNotHaveAnyTasks() (10,8s)
+Thread#0:B:When The user goes to the add task view
+Thread#0:T:done: MainViewSteps.TheUserGoesToTheAddTaskView() (0,2s)
+Thread#0:B:And The user sets the task with the title 'Go to shop', the content 'Buy eggs and onions', and the color 'Red'
+Thread#0:T:done: AddTaskViewSteps.TheUserSetsTheTaskWithTheTitleTheContentAndTheColor("Go to shop", "Buy eggs and onions", "Red") (12,5s)
+Thread#0:B:And The user creates the task
+Thread#0:T:done: AddTaskViewSteps.TheUserCreatesTheTask() (1,3s)
+Thread#0:B:Then The application has '1' task created
+Thread#0:T:done: MainViewSteps.TheApplicationHaveTaskCreated(1) (0,6s)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #12 from normal test queue 
+Thread#0:Scheduler: considering testitem #12 for thread
+Thread#0:Scheduler: using testitem #12 for thread
+Thread#0:Scheduler: Test #12 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #11/0 is finished on thread #0 as Succeeded within 27,9321005 seconds
+Thread#0: Test #12/0 is started on thread #0
+Thread#0:B:Given The user creates a task with the title 'Prepare meetup', the content 'Check all the content', and the color 'White'
+Thread#0:B:When The user goes to the add task view
+Thread#0:T:done: MainViewSteps.TheUserGoesToTheAddTaskView() (0.4s)
+Thread#0:B:When The user sets the task with the title 'Prepare meetup', the content 'Check all the content', and the color 'White'
+Thread#0:T:done: AddTaskViewSteps.TheUserSetsTheTaskWithTheTitleTheContentAndTheColor("Prepare meetup", "Check all the con...", "White") (12.7s)
+Thread#0:B:When The user creates the task
+Thread#0:T:done: AddTaskViewSteps.TheUserCreatesTheTask() (1.2s)
+Thread#0:T:done: AddTaskViewSteps.TheUserCreatesATaskWithTheTitleTheContentAndTheColor("Prepare meetup", "Check all the con...", "White") (24,7s)
+Thread#0:B:And The user creates a task with the title 'Buy pizzas', the content 'Call and buy pizzas', and the color 'White'
+Thread#0:B:When The user goes to the add task view
+Thread#0:T:done: MainViewSteps.TheUserGoesToTheAddTaskView() (0.8s)
+Thread#0:B:When The user sets the task with the title 'Buy pizzas', the content 'Call and buy pizzas', and the color 'White'
+Thread#0:T:done: AddTaskViewSteps.TheUserSetsTheTaskWithTheTitleTheContentAndTheColor("Buy pizzas", "Call and buy pizzas", "White") (15.5s)
+Thread#0:B:When The user creates the task
+Thread#0:T:done: AddTaskViewSteps.TheUserCreatesTheTask() (0.5s)
+Thread#0:T:done: AddTaskViewSteps.TheUserCreatesATaskWithTheTitleTheContentAndTheColor("Buy pizzas", "Call and buy pizzas", "White") (16,9s)
+Thread#0:B:And The user creates a task with the title 'Feedback', the content 'Ask for feedback', and the color 'Yellow'
+Thread#0:B:When The user goes to the add task view
+Thread#0:T:done: MainViewSteps.TheUserGoesToTheAddTaskView() (0.8s)
+Thread#0:B:When The user sets the task with the title 'Feedback', the content 'Ask for feedback', and the color 'Yellow'
+Thread#0:T:done: AddTaskViewSteps.TheUserSetsTheTaskWithTheTitleTheContentAndTheColor("Feedback", "Ask for feedback", "Yellow") (12.5s)
+Thread#0:B:When The user creates the task
+Thread#0:T:done: AddTaskViewSteps.TheUserCreatesTheTask() (1.3s)
+Thread#0:T:done: AddTaskViewSteps.TheUserCreatesATaskWithTheTitleTheContentAndTheColor("Feedback", "Ask for feedback", "Yellow") (14,5s)
+Thread#0:B:Then The application has '3' task created
+Thread#0:T:done: MainViewSteps.TheApplicationHaveTaskCreated(3) (0,8s)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #13 from normal test queue 
+Thread#0:Scheduler: considering testitem #13 for thread
+Thread#0:Scheduler: using testitem #13 for thread
+Thread#0:Scheduler: Test #13 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #12/0 is finished on thread #0 as Succeeded within 59,8385528 seconds
+Thread#0: Test #13/0 is started on thread #0
+Thread#0:B:Given The user creates a task with the title 'Prepare meetup', the content 'Check all the content', and the color 'Red'
+Thread#0:B:When The user goes to the add task view
+Thread#0:T:done: MainViewSteps.TheUserGoesToTheAddTaskView() (0.2s)
+Thread#0:B:When The user sets the task with the title 'Prepare meetup', the content 'Check all the content', and the color 'Red'
+Thread#0:T:done: AddTaskViewSteps.TheUserSetsTheTaskWithTheTitleTheContentAndTheColor("Prepare meetup", "Check all the con...", "Red") (12.5s)
+Thread#0:B:When The user creates the task
+Thread#0:T:done: AddTaskViewSteps.TheUserCreatesTheTask() (1.2s)
+Thread#0:T:done: AddTaskViewSteps.TheUserCreatesATaskWithTheTitleTheContentAndTheColor("Prepare meetup", "Check all the con...", "Red") (24,4s)
+Thread#0:B:And The user creates a task with the title 'Buy pizzas', the content 'Call and buy pizzas', and the color 'White'
+Thread#0:B:When The user goes to the add task view
+Thread#0:T:done: MainViewSteps.TheUserGoesToTheAddTaskView() (0.8s)
+Thread#0:B:When The user sets the task with the title 'Buy pizzas', the content 'Call and buy pizzas', and the color 'White'
+Thread#0:T:done: AddTaskViewSteps.TheUserSetsTheTaskWithTheTitleTheContentAndTheColor("Buy pizzas", "Call and buy pizzas", "White") (12.6s)
+Thread#0:B:When The user creates the task
+Thread#0:T:done: AddTaskViewSteps.TheUserCreatesTheTask() (1.2s)
+Thread#0:T:done: AddTaskViewSteps.TheUserCreatesATaskWithTheTitleTheContentAndTheColor("Buy pizzas", "Call and buy pizzas", "White") (14,6s)
+Thread#0:B:And The user creates a task with the title 'Feedback', the content 'Ask for feedback', and the color 'Blue'
+Thread#0:B:When The user goes to the add task view
+Thread#0:T:done: MainViewSteps.TheUserGoesToTheAddTaskView() (0.8s)
+Thread#0:B:When The user sets the task with the title 'Feedback', the content 'Ask for feedback', and the color 'Blue'
+Thread#0:T:done: AddTaskViewSteps.TheUserSetsTheTaskWithTheTitleTheContentAndTheColor("Feedback", "Ask for feedback", "Blue") (12.3s)
+Thread#0:B:When The user creates the task
+Thread#0:T:done: AddTaskViewSteps.TheUserCreatesTheTask() (1.2s)
+Thread#0:T:done: AddTaskViewSteps.TheUserCreatesATaskWithTheTitleTheContentAndTheColor("Feedback", "Ask for feedback", "Blue") (14,4s)
+Thread#0:B:When The user removes the task '2'
+Thread#0:B:When The user goes to the task '2' edit view
+Thread#0:T:done: MainViewSteps.TheUserGoesToTheTaskEditView(2) (1.3s)
+Thread#0:T:done: EditTaskViewSteps.TheUserRemovesTheTask("2") (3,2s)
+Thread#0:B:Then The application has '2' task created
+Thread#0:T:done: MainViewSteps.TheApplicationHaveTaskCreated(2) (0,8s)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread 
+Thread#0: Test #13/0 is finished on thread #0 as Succeeded within 59,9897215 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 8
+Succeeded: 8
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0

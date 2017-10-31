@@ -1,0 +1,16 @@
+C:\QACommunity\EPD2017\Recipe2\Recipe2\ClassLibrary1\bin\Debug\ClassLibrary1.dll.config
+C:\QACommunity\EPD2017\Recipe2\Recipe2\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\QACommunity\EPD2017\Recipe2\Recipe2\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\QACommunity\EPD2017\Recipe2\Recipe2\ClassLibrary1\bin\Debug\appium-dotnet-driver.dll
+C:\QACommunity\EPD2017\Recipe2\Recipe2\ClassLibrary1\bin\Debug\Castle.Core.dll
+C:\QACommunity\EPD2017\Recipe2\Recipe2\ClassLibrary1\bin\Debug\Newtonsoft.Json.dll
+C:\QACommunity\EPD2017\Recipe2\Recipe2\ClassLibrary1\bin\Debug\WebDriver.dll
+C:\QACommunity\EPD2017\Recipe2\Recipe2\ClassLibrary1\bin\Debug\WebDriver.Support.dll
+C:\QACommunity\EPD2017\Recipe2\Recipe2\ClassLibrary1\bin\Debug\appium-dotnet-driver.xml
+C:\QACommunity\EPD2017\Recipe2\Recipe2\ClassLibrary1\bin\Debug\Castle.Core.xml
+C:\QACommunity\EPD2017\Recipe2\Recipe2\ClassLibrary1\bin\Debug\Newtonsoft.Json.xml
+C:\QACommunity\EPD2017\Recipe2\Recipe2\ClassLibrary1\bin\Debug\WebDriver.xml
+C:\QACommunity\EPD2017\Recipe2\Recipe2\ClassLibrary1\bin\Debug\WebDriver.Support.xml
+C:\QACommunity\EPD2017\Recipe2\Recipe2\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\QACommunity\EPD2017\Recipe2\Recipe2\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\QACommunity\EPD2017\Recipe2\Recipe2\ClassLibrary1\obj\Debug\PageObject.Interfaces.csprojResolveAssemblyReference.cache

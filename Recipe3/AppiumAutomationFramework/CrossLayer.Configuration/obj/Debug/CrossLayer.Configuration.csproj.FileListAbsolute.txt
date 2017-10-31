@@ -1,0 +1,9 @@
+C:\QACommunity\ErniPerformance2017\AppiumAutomationFramework\CrossLayer.Configuration\bin\Debug\CrossLayer.Configuration.dll
+C:\QACommunity\ErniPerformance2017\AppiumAutomationFramework\CrossLayer.Configuration\bin\Debug\CrossLayer.Configuration.pdb
+C:\QACommunity\ErniPerformance2017\AppiumAutomationFramework\CrossLayer.Configuration\obj\Debug\CrossLayer.Configuration.csprojResolveAssemblyReference.cache
+C:\QACommunity\ErniPerformance2017\AppiumAutomationFramework\CrossLayer.Configuration\obj\Debug\CrossLayer.Configuration.dll
+C:\QACommunity\ErniPerformance2017\AppiumAutomationFramework\CrossLayer.Configuration\obj\Debug\CrossLayer.Configuration.pdb
+C:\QACommunity\EPD2017\Recipe3\AppiumAutomationFramework\CrossLayer.Configuration\bin\Debug\CrossLayer.Configuration.dll
+C:\QACommunity\EPD2017\Recipe3\AppiumAutomationFramework\CrossLayer.Configuration\bin\Debug\CrossLayer.Configuration.pdb
+C:\QACommunity\EPD2017\Recipe3\AppiumAutomationFramework\CrossLayer.Configuration\obj\Debug\CrossLayer.Configuration.dll
+C:\QACommunity\EPD2017\Recipe3\AppiumAutomationFramework\CrossLayer.Configuration\obj\Debug\CrossLayer.Configuration.pdb

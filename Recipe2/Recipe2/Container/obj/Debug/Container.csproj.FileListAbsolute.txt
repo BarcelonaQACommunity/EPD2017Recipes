@@ -1,0 +1,16 @@
+C:\QACommunity\EPD2017\Recipe2\Recipe2\Container\bin\Debug\Container.dll.config
+C:\QACommunity\EPD2017\Recipe2\Recipe2\Container\bin\Debug\Container.dll
+C:\QACommunity\EPD2017\Recipe2\Recipe2\Container\bin\Debug\Container.pdb
+C:\QACommunity\EPD2017\Recipe2\Recipe2\Container\bin\Debug\Autofac.dll
+C:\QACommunity\EPD2017\Recipe2\Recipe2\Container\bin\Debug\ClassLibrary1.dll
+C:\QACommunity\EPD2017\Recipe2\Recipe2\Container\bin\Debug\PageObject.Web.dll
+C:\QACommunity\EPD2017\Recipe2\Recipe2\Container\bin\Debug\WebDriver.Support.dll
+C:\QACommunity\EPD2017\Recipe2\Recipe2\Container\bin\Debug\WebDriver.dll
+C:\QACommunity\EPD2017\Recipe2\Recipe2\Container\bin\Debug\ClassLibrary1.pdb
+C:\QACommunity\EPD2017\Recipe2\Recipe2\Container\bin\Debug\PageObject.Web.pdb
+C:\QACommunity\EPD2017\Recipe2\Recipe2\Container\bin\Debug\Autofac.xml
+C:\QACommunity\EPD2017\Recipe2\Recipe2\Container\bin\Debug\WebDriver.Support.xml
+C:\QACommunity\EPD2017\Recipe2\Recipe2\Container\bin\Debug\WebDriver.xml
+C:\QACommunity\EPD2017\Recipe2\Recipe2\Container\obj\Debug\Container.csprojResolveAssemblyReference.cache
+C:\QACommunity\EPD2017\Recipe2\Recipe2\Container\obj\Debug\Container.dll
+C:\QACommunity\EPD2017\Recipe2\Recipe2\Container\obj\Debug\Container.pdb

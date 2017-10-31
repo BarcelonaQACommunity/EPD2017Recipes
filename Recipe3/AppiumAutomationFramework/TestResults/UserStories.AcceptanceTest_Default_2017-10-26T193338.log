@@ -1,0 +1,65 @@
+﻿VS filter: testpath:TestAssembly:UserStories.AcceptanceTest/Feature:Main+view+-+How+to+manage+the+different+lists/Scenario:Main+View+-+The+user+removes+a+task+and+check+that+the+task+has+been+removed
+Discovering target: Default
+Discovering tests from assembly: C:\QACommunity\ErniPerformance2017\AppiumAutomationFramework\UserStories.AcceptanceTest\bin\Debug\UserStories.AcceptanceTest.dll
+Appdomain Disposed
+Test Suite Dump
+#0: UserStories.AcceptanceTest/Default - 
+#1: Default - 
+#2: UserStories.AcceptanceTest - 
+#9: Main view - How to manage the different lists - 
+#13: Main View - The user removes a task and check that the task has been removed - TestAssembly:UserStories.AcceptanceTest/Feature:Main+view+-+How+to+manage+the+different+lists/Scenario:Main+View+-+The+user+removes+a+task+and+check+that+the+task+has+been+removed
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #13 from normal test queue 
+Thread#0:Scheduler: considering testitem #13 for thread
+Thread#0:Scheduler: using testitem #13 for thread
+Thread#0:Scheduler: Test #13 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for UserStories.AcceptanceTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\lodi\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.5.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #13/0 is started on thread #0
+Thread#0:B:Given The user creates a task with the title 'Prepare meetup', the content 'Check all the content', and the color 'Red'
+Thread#0:B:When The user goes to the add task view
+Thread#0:T:done: MainViewSteps.TheUserGoesToTheAddTaskView() (0.3s)
+Thread#0:B:When The user sets the task with the title 'Prepare meetup', the content 'Check all the content', and the color 'Red'
+Thread#0:T:done: AddTaskViewSteps.TheUserSetsTheTaskWithTheTitleTheContentAndTheColor("Prepare meetup", "Check all the con...", "Red") (12.5s)
+Thread#0:B:When The user creates the task
+Thread#0:T:done: AddTaskViewSteps.TheUserCreatesTheTask() (1.2s)
+Thread#0:T:done: AddTaskViewSteps.TheUserCreatesATaskWithTheTitleTheContentAndTheColor("Prepare meetup", "Check all the con...", "Red") (31,2s)
+Thread#0:B:And The user creates a task with the title 'Buy pizzas', the content 'Call and buy pizzas', and the color 'White'
+Thread#0:B:When The user goes to the add task view
+Thread#0:T:done: MainViewSteps.TheUserGoesToTheAddTaskView() (0.9s)
+Thread#0:B:When The user sets the task with the title 'Buy pizzas', the content 'Call and buy pizzas', and the color 'White'
+Thread#0:T:done: AddTaskViewSteps.TheUserSetsTheTaskWithTheTitleTheContentAndTheColor("Buy pizzas", "Call and buy pizzas", "White") (12.9s)
+Thread#0:B:When The user creates the task
+Thread#0:T:done: AddTaskViewSteps.TheUserCreatesTheTask() (1.3s)
+Thread#0:T:done: AddTaskViewSteps.TheUserCreatesATaskWithTheTitleTheContentAndTheColor("Buy pizzas", "Call and buy pizzas", "White") (15,1s)
+Thread#0:B:And The user creates a task with the title 'Feedback', the content 'Ask for feedback', and the color 'Blue'
+Thread#0:B:When The user goes to the add task view
+Thread#0:T:done: MainViewSteps.TheUserGoesToTheAddTaskView() (0.9s)
+Thread#0:B:When The user sets the task with the title 'Feedback', the content 'Ask for feedback', and the color 'Blue'
+Thread#0:T:done: AddTaskViewSteps.TheUserSetsTheTaskWithTheTitleTheContentAndTheColor("Feedback", "Ask for feedback", "Blue") (15.3s)
+Thread#0:B:When The user creates the task
+Thread#0:T:done: AddTaskViewSteps.TheUserCreatesTheTask() (0.5s)
+Thread#0:T:done: AddTaskViewSteps.TheUserCreatesATaskWithTheTitleTheContentAndTheColor("Feedback", "Ask for feedback", "Blue") (16,7s)
+Thread#0:B:When The user removes the task '2'
+Thread#0:B:When The user goes to the task '2' edit view
+Thread#0:T:done: MainViewSteps.TheUserGoesToTheTaskEditView(2) (1.4s)
+Thread#0:T:done: EditTaskViewSteps.TheUserRemovesTheTask("2") (3,2s)
+Thread#0:B:Then The application has '2' task created
+Thread#0:T:done: MainViewSteps.TheApplicationHaveTaskCreated(2) (0,7s)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread 
+Thread#0: Test #13/0 is finished on thread #0 as Succeeded within 70,1156204 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0

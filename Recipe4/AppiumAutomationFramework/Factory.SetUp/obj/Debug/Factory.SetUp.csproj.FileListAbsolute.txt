@@ -1,0 +1,17 @@
+C:\QACommunity\ErniPerformance2017\AppiumAutomationFramework\Factory.SetUp\bin\Debug\Factory.SetUp.dll
+C:\QACommunity\ErniPerformance2017\AppiumAutomationFramework\Factory.SetUp\bin\Debug\Factory.SetUp.pdb
+C:\QACommunity\ErniPerformance2017\AppiumAutomationFramework\Factory.SetUp\bin\Debug\appium-dotnet-driver.dll
+C:\QACommunity\ErniPerformance2017\AppiumAutomationFramework\Factory.SetUp\bin\Debug\Castle.Core.dll
+C:\QACommunity\ErniPerformance2017\AppiumAutomationFramework\Factory.SetUp\bin\Debug\CrossLayer.Configuration.dll
+C:\QACommunity\ErniPerformance2017\AppiumAutomationFramework\Factory.SetUp\bin\Debug\Newtonsoft.Json.dll
+C:\QACommunity\ErniPerformance2017\AppiumAutomationFramework\Factory.SetUp\bin\Debug\WebDriver.dll
+C:\QACommunity\ErniPerformance2017\AppiumAutomationFramework\Factory.SetUp\bin\Debug\WebDriver.Support.dll
+C:\QACommunity\ErniPerformance2017\AppiumAutomationFramework\Factory.SetUp\bin\Debug\CrossLayer.Configuration.pdb
+C:\QACommunity\ErniPerformance2017\AppiumAutomationFramework\Factory.SetUp\bin\Debug\appium-dotnet-driver.xml
+C:\QACommunity\ErniPerformance2017\AppiumAutomationFramework\Factory.SetUp\bin\Debug\Castle.Core.xml
+C:\QACommunity\ErniPerformance2017\AppiumAutomationFramework\Factory.SetUp\bin\Debug\Newtonsoft.Json.xml
+C:\QACommunity\ErniPerformance2017\AppiumAutomationFramework\Factory.SetUp\bin\Debug\WebDriver.xml
+C:\QACommunity\ErniPerformance2017\AppiumAutomationFramework\Factory.SetUp\bin\Debug\WebDriver.Support.xml
+C:\QACommunity\ErniPerformance2017\AppiumAutomationFramework\Factory.SetUp\obj\Debug\Factory.SetUp.csprojResolveAssemblyReference.cache
+C:\QACommunity\ErniPerformance2017\AppiumAutomationFramework\Factory.SetUp\obj\Debug\Factory.SetUp.dll
+C:\QACommunity\ErniPerformance2017\AppiumAutomationFramework\Factory.SetUp\obj\Debug\Factory.SetUp.pdb
