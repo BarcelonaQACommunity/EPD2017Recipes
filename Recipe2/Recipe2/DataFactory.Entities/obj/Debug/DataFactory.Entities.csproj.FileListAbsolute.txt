@@ -1,0 +1,6 @@
+D:\ERNI\MeetupAutomationRecipes\Recipe2\Recipe2\DataFactory.Entities\bin\Debug\DataFactory.Entities.dll
+D:\ERNI\MeetupAutomationRecipes\Recipe2\Recipe2\DataFactory.Entities\bin\Debug\DataFactory.Entities.pdb
+D:\ERNI\MeetupAutomationRecipes\Recipe2\Recipe2\DataFactory.Entities\obj\Debug\DataFactory.Entities.csprojAssemblyReference.cache
+D:\ERNI\MeetupAutomationRecipes\Recipe2\Recipe2\DataFactory.Entities\obj\Debug\DataFactory.Entities.csproj.CoreCompileInputs.cache
+D:\ERNI\MeetupAutomationRecipes\Recipe2\Recipe2\DataFactory.Entities\obj\Debug\DataFactory.Entities.dll
+D:\ERNI\MeetupAutomationRecipes\Recipe2\Recipe2\DataFactory.Entities\obj\Debug\DataFactory.Entities.pdb

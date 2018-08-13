@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using DataFactory.Entities;
 
 namespace PageObject.Interfaces
 {
     public interface IMainPage
     {
-        void AddNewTask();
-        String GetLastTitle();
-        String GetLastDescription();
-        String GetLastColor();
+        void GoToCreateNewTask();
+
+        IList<TodoItem> GetTodoItems();
     }
 }

@@ -1,24 +1,29 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe2", "Recipe1\Recipe2.csproj", "{9E45C257-9AA8-4EB8-8083-F90ECF00582E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserStories.AcceptanceTest", "Recipe1\UserStories.AcceptanceTest.csproj", "{9E45C257-9AA8-4EB8-8083-F90ECF00582E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Features", "Features", "{E025ECF0-DB05-49F4-BD6A-95B7FBD23F93}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - User Stories", "2 - User Stories", "{E025ECF0-DB05-49F4-BD6A-95B7FBD23F93}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PageObject", "PageObject", "{CE88C00D-061E-452E-9FC1-AAD953A786AE}"
-	ProjectSection(SolutionItems) = preProject
-		Recipe1\chromedriver.exe = Recipe1\chromedriver.exe
-	EndProjectSection
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Automation Core", "1 - Automation Core", "{CE88C00D-061E-452E-9FC1-AAD953A786AE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Injection", "Injection", "{56877184-1325-475F-9B3E-384174E9CF9E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Cross Layer", "4 - Cross Layer", "{56877184-1325-475F-9B3E-384174E9CF9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PageObject.Interfaces", "ClassLibrary1\PageObject.Interfaces.csproj", "{1C87A640-5797-429A-8A7C-C7988A9042A9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationCore.Contracts", "ClassLibrary1\AutomationCore.Contracts.csproj", "{1C87A640-5797-429A-8A7C-C7988A9042A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PageObject.Web", "PageObject.Web\PageObject.Web.csproj", "{DFE0ACFE-FC38-4942-A301-A25D41D53661}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationCore.Web", "PageObject.Web\AutomationCore.Web.csproj", "{DFE0ACFE-FC38-4942-A301-A25D41D53661}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Container", "Container\Container.csproj", "{991410BD-6D21-42A9-965E-E02768DB42BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossLayer.Containers", "Container\CrossLayer.Containers.csproj", "{991410BD-6D21-42A9-965E-E02768DB42BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 - Contracts", "1.1 - Contracts", "{67850739-DA81-45CA-AD09-03B454B9B039}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2 - Web Driver", "1.2 - Web Driver", "{3B02EB6F-B0EC-44BE-AD12-8B921F0542D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Data Factory", "3 - Data Factory", "{CFC59CB5-3ECE-4EC1-9602-A47B5B66CC7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataFactory.Entities", "DataFactory.Entities\DataFactory.Entities.csproj", "{0F1A5978-A7C6-466A-A4F8-A9F71A268CC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,14 +47,24 @@ Global
 		{991410BD-6D21-42A9-965E-E02768DB42BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{991410BD-6D21-42A9-965E-E02768DB42BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{991410BD-6D21-42A9-965E-E02768DB42BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F1A5978-A7C6-466A-A4F8-A9F71A268CC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F1A5978-A7C6-466A-A4F8-A9F71A268CC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F1A5978-A7C6-466A-A4F8-A9F71A268CC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F1A5978-A7C6-466A-A4F8-A9F71A268CC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9E45C257-9AA8-4EB8-8083-F90ECF00582E} = {E025ECF0-DB05-49F4-BD6A-95B7FBD23F93}
-		{1C87A640-5797-429A-8A7C-C7988A9042A9} = {CE88C00D-061E-452E-9FC1-AAD953A786AE}
-		{DFE0ACFE-FC38-4942-A301-A25D41D53661} = {CE88C00D-061E-452E-9FC1-AAD953A786AE}
+		{1C87A640-5797-429A-8A7C-C7988A9042A9} = {67850739-DA81-45CA-AD09-03B454B9B039}
+		{DFE0ACFE-FC38-4942-A301-A25D41D53661} = {3B02EB6F-B0EC-44BE-AD12-8B921F0542D3}
 		{991410BD-6D21-42A9-965E-E02768DB42BD} = {56877184-1325-475F-9B3E-384174E9CF9E}
+		{67850739-DA81-45CA-AD09-03B454B9B039} = {CE88C00D-061E-452E-9FC1-AAD953A786AE}
+		{3B02EB6F-B0EC-44BE-AD12-8B921F0542D3} = {CE88C00D-061E-452E-9FC1-AAD953A786AE}
+		{0F1A5978-A7C6-466A-A4F8-A9F71A268CC2} = {CFC59CB5-3ECE-4EC1-9602-A47B5B66CC7C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80B0C87A-C483-4842-959A-D77A5C2C8148}
 	EndGlobalSection
 EndGlobal

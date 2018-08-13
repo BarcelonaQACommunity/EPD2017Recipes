@@ -1,53 +1,57 @@
 ﻿using System;
 using System.Collections.Generic;
+using DataFactory.Entities;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
 using PageObject.Interfaces;
+using PageObject.Web.Base.WebDriver;
 
 namespace PageObject.Web
 {
-    public class MainPage : IMainPage
+    public class MainPage : BaseWebPage, IMainPage
     {
         #region .: Web Elements :.
 
-        [FindsBy(How = How.ClassName, Using = "well")]
-        private IList<IWebElement> _taskList;
+        [FindsBy(How = How.Name, Using = "create-new")]
+        private IWebElement createNewButton;
 
-        [FindsBy(How = How.XPath, Using = "//p/a")]
-        private IWebElement _addTask;
+        [FindsBy(How = How.XPath, Using = "//*[@data-test-id='box-list-item']")]
+        private IList<IWebElement> itemBoxList;
 
         #endregion
-        
-        public MainPage()
+
+        public MainPage(ISetUpDriver setUpDriver)
+            : base(setUpDriver)
         {
-            PageFactory.InitElements(Common.webDriver, this);
+            PageFactory.InitElements(this.webDriver, this);
         }
 
-
-        public String GetLastTitle()
+        public void GoToCreateNewTask()
         {
-            String LastId = "item-" + (_taskList.Count-1);
-            IWebElement LastElem = Common.webDriver.FindElement(By.Id(LastId));
-            return LastElem.FindElement(By.Name("title")).Text;
+            this.createNewButton.Click();
         }
 
-        public String GetLastDescription()
+        public IList<TodoItem> GetTodoItems()
         {
-            String LastId = "item-" + (_taskList.Count - 1);
-            IWebElement LastElem = Common.webDriver.FindElement(By.Id(LastId));
-            return LastElem.FindElement(By.Name("description")).Text;
-        }
+            var todoItems = new List<TodoItem>();
 
-        public String GetLastColor()
-        {
-            String LastId = "item-" + (_taskList.Count - 1);
-            IWebElement LastElem = Common.webDriver.FindElement(By.Id(LastId));
-            return LastElem.GetCssValue("color");
-        }
+            foreach (var itemBox in this.itemBoxList)
+            {
+                var todoItem = new TodoItem();
 
-        public void AddNewTask()
-        {
-            _addTask.Click();
+                // Title
+                todoItem.Title = itemBox.FindElement(By.Name("title")).Text;
+
+                // Description
+                todoItem.Content = itemBox.FindElement(By.Name("description")).Text;
+
+                // Color
+                todoItem.Color = itemBox.GetAttribute("style").Replace("background: ", string.Empty).Replace(";", string.Empty);
+
+                todoItems.Add(todoItem);
+            }
+
+            return todoItems;
         }
     }
 }

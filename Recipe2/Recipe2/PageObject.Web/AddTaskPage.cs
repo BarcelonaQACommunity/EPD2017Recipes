@@ -1,74 +1,72 @@
-﻿using OpenQA.Selenium;
+﻿using DataFactory.Entities;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
 using PageObject.Interfaces;
+using PageObject.Web.Base.WebDriver;
 
 namespace PageObject.Web
 {
-    public class AddTaskPage : IAddTaskPage
+    public class AddTaskPage : BaseWebPage, IAddTaskPage
     {
         #region .: Web Elements :.
 
         [FindsBy(How = How.Id, Using = "textBox-itemTitle")]
-        private IWebElement _taskTitleTextBox;
+        private IWebElement taskTitleTextBox;
 
         [FindsBy(How = How.Id, Using = "textBox-itemDescription")]
-        private IWebElement _taskDescriptionTextBox;
+        private IWebElement taskDescriptionTextBox;
 
         [FindsBy(How = How.Id, Using = "button-addItem")]
-        private IWebElement _taskNewItemButton;
+        private IWebElement taskNewItemButton;
 
         [FindsBy(How = How.Id, Using = "dropDown-itemColor")]
-        private IWebElement _colorDropDownMenu;
+        private IWebElement colorDropDownMenu;
 
         #endregion
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="WebAddTaskPage"/> class.
+        /// Initializes a new instance of the <see cref="AddTaskPage"/> class.
         /// </summary>
-        /// <param name="setUpWebDriver">The set up web driver.</param>
-        public AddTaskPage() 
+        /// <param name="setUpDriver">The set up driver.</param>
+        public AddTaskPage(ISetUpDriver setUpDriver) 
+            : base(setUpDriver)
         {
-            PageFactory.InitElements(Common.webDriver, this);
+            PageFactory.InitElements(this.webDriver, this);
         }
 
-        /// <summary>
-        /// Gets or sets the task title.
-        /// </summary>
-        public string TaskTitle
+        public void CreateTask(TodoItem todoItem, bool clickNewItem = true)
         {
-            get { return _taskTitleTextBox.GetAttribute("value"); }
-            set { _taskTitleTextBox.SendKeys(value); }
+            // Title
+            this.taskTitleTextBox.SendKeys(todoItem.Title);
+
+            // Description
+            this.taskDescriptionTextBox.SendKeys(todoItem.Content);
+
+            // Color
+            this.SetTaskColor(todoItem.Color);
+
+            if (clickNewItem)
+            {
+                this.taskNewItemButton.Click();
+            }
         }
 
-        /// <summary>
-        /// Gets or sets the content of the task.
-        /// </summary>
-        public string TaskContent
+        private void SetTaskColor(string color)
         {
-            get { return _taskDescriptionTextBox.GetAttribute("value"); }
-            set { _taskDescriptionTextBox.SendKeys(value); }
-        }
+            var isClicked = false;
 
-        /// <summary>
-        /// Creates the task.
-        /// </summary>
-        public void CreateTask()
-        {
-            _taskNewItemButton.Click();
-        }
-
-        /// <summary>
-        /// Sets the color of the task.
-        /// </summary>
-        /// <param name="color">The color.</param>
-        public void SetTaskColor(string color)
-        {
-            foreach (var item in _colorDropDownMenu.FindElements(By.TagName("option")))
+            foreach (var item in this.colorDropDownMenu.FindElements(By.TagName("option")))
             {
                 if (color == item.Text)
                 {
                     item.Click();
+                    isClicked = true;
                 }
+            }
+
+            if (!isClicked)
+            {
+                throw new NotFoundException($"Color {color} not found.");
             }
         }
     }

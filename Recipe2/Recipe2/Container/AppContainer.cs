@@ -11,7 +11,7 @@ namespace Container
         static AppContainer()
         {
             var buildContainer = new ContainerBuilder();
-            buildContainer.RegisterType<Common>().As<ICommon>();
+            buildContainer.RegisterType<SetUpDriver>().As<ISetUpDriver>();
             buildContainer.RegisterType<AddTaskPage>().As<IAddTaskPage>();
             buildContainer.RegisterType<MainPage>().As<IMainPage>();
             Container = buildContainer.Build();
