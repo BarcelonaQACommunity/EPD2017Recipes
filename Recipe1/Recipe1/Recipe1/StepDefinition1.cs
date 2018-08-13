@@ -46,7 +46,7 @@ namespace Recipe1
         {
             IWebElement lbltitle = _webDriver.FindElement(By.Name("title"));
             IWebElement lbldescription = _webDriver.FindElement(By.Name("description"));
-            IWebElement boxTodoItem = _webDriver.FindElement(By.Id("item-1"));
+            IWebElement boxTodoItem = _webDriver.FindElement(By.XPath("//*[@data-test-id='box-list-item']"));
 
             Assert.AreEqual(p0, lbltitle.Text);
             Assert.AreEqual(p1, lbldescription.Text);
