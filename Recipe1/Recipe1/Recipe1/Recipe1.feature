@@ -6,7 +6,7 @@
 Scenario Outline: Add Task View - Check the values from the task
 	Given The user goes to the add task view
 	When The user sets the task with the title '<Title>', the content '<Content>', and the color '<Color>'
-	Then The user check that the title '<Title>' and the content '<Content>' from the task are the correct values
+	Then The user check that the title '<Title>' and the content '<Content>' and the color '<Color>' from the task are the correct values
 
 	Examples: 
 	| Title   | Content             | Color  |

@@ -93,8 +93,8 @@ this.ScenarioSetup(scenarioInfo);
  testRunner.When(string.Format("The user sets the task with the title \'{0}\', the content \'{1}\', and the color \'{2" +
                         "}\'", title, content, color), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 9
- testRunner.Then(string.Format("The user check that the title \'{0}\' and the content \'{1}\' from the task are the c" +
-                        "orrect values", title, content), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then(string.Format("The user check that the title \'{0}\' and the content \'{1}\' and the color \'{2}\' fro" +
+                        "m the task are the correct values", title, content, color), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
